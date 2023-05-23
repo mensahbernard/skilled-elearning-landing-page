@@ -114,11 +114,12 @@ nav{
 
 .card-section{
     margin-bottom: 140px;
-    width: 77%;
     display: flex;
+    grid-template-columns:  repeat(3, 1fr);
     flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 56px;
+    grid-gap: 40px;
+    justify-content: space-around;
+    margin: 100px;
 }
 
 .card{
