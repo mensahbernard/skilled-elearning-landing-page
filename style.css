@@ -113,7 +113,7 @@ nav{
 }
 
 .card-section{
-    margin-bottom: 140px;
+    margin-bottom: 10px;
     display: flex;
     grid-template-columns:  repeat(3, 1fr);
     flex-wrap: wrap;
@@ -320,7 +320,7 @@ footer{
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 700px) {
     #img-tablet{
         display: none;
     }
